@@ -71,3 +71,14 @@
 .sidebar__voiceicons>.MuiSvgIcon-root{
     padding: 10px;
 }
+.sidebar__profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid white;
+    color: gray;
+    font-size: 12px;
+}
+.sidebar__profile_info{
+    flex: 1;
+}
