@@ -1,0 +1,54 @@
+.chat_section{
+    display: flex;
+    flex-direction: column;
+    flex: 0.75;
+    background-color: #2f3135;
+    justify-content: space-between;
+    height: 100vh;
+    /* vh	Relative to 1% of the height of the viewport*
+    Viewport = the browser window size. */
+}
+
+.chat_input_message{
+    color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex: 1;    
+    background-color: #474653;
+}
+
+.chat_input_message>form{
+    flex: 1;
+}
+
+.chat_input_message>form>input{
+    color: lightgray;
+    padding: 20px;
+    align-items: center;
+    background-color: transparent;
+    border-style: none ;
+    padding: 5px;
+    font-size: large;
+    width: 85%;
+}
+
+.chat_input_icons>.MuiSvgIcon-root{
+    cursor: pointer;
+    padding: 2px;
+}
+
+.chat_messages{
+    flex: 1;
+}
+
+.chat_input_message>form>button{
+    color: lightgray;
+    background-color: transparent;
+    border-style: none ;
+    padding: 15px;
+    margin-right: 0;
+    font-size: large;
+    cursor: pointer;
+}
