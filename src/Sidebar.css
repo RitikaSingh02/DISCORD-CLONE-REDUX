@@ -4,6 +4,7 @@
     flex:0.25;/*Let all the flexible items be the same length, regardless of its content:*/
     height:100vh;
     background-color: #2f3135;
+    border-right: white;
 }
 
 .sidebar__top{
@@ -27,7 +28,7 @@
 }
 
 .sidebar__addChannel:hover{
-    color: white;
+    background-color: white;
 }
 
 .sidebar__channelsHeaders{   
@@ -37,7 +38,6 @@
     padding:7px;
     background-color: #2f3135;
     color: gray;
-    background-color: #2f3135; 
     margin-left: 0;
     border-bottom: 3px solid #26282c;
 }
@@ -47,7 +47,7 @@
     align-items: center;
 }
 
-.sidebar__voice{
+.sidebar__voice,.sidebar_profile{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -55,30 +55,37 @@
     color: gray;
     font-size: 12px;
 }
+
 .sidebar__voiceinfo{
     flex:1;
     padding:7px;
 }
+
 .sidebar__voiceIcon{
     color: #4fb185;
 }
+
 .sidebar__voiceinfo>h3{
     color: #4fb185;
 }
+
 .sidebar__voiceinfo>p{
     font-size: smaller;
 }
+
 .sidebar__voiceicons>.MuiSvgIcon-root{
     padding: 10px;
 }
-.sidebar__profile{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    border-top: 1px solid white;
-    color: gray;
-    font-size: 12px;
-}
+
 .sidebar__profile_info{
-    flex: 1;
+    flex:1;
+    padding: 5px;
+}
+
+.sidebar__profile_info>h3{
+    color: white;
+}
+
+.sidebar__profile_icons>.MuiSvgIcon-root{
+    padding: 10px;
 }
