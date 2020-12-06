@@ -7,7 +7,7 @@ import  SearchRoundedIcon from '@material-ui/icons/SearchRounded'
 import  SendRoundedIcon from '@material-ui/icons/SendRounded'
 import  HelpRoundedIcon from '@material-ui/icons/HelpRounded'
 
-function ChatHeader() 
+function ChatHeader({ channelName }) 
     {
         return (
             <div className="chat__header">
@@ -15,7 +15,7 @@ function ChatHeader()
                 <div className="chat_header__left">
                         <h3>    
                             <span className="chat_header__hash">#</span>
-                            channel_name
+                            { channelName }
                         </h3>
                     </div>
                 <div className="chat_header__right">
