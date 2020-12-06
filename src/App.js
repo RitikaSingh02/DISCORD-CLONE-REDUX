@@ -91,10 +91,10 @@ useEffect(() => {
     <div className="App">
       {user?
         (
-          <div>
+          <>
                 <Sidebar/>
                 <Chat/>
-            </div>
+            </>
         
         )
         :(
